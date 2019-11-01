@@ -1,0 +1,30 @@
+{
+    "name": "alexgo93/php_list",
+    "description": "List data structure library",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alexgo93",
+            "email": "alekseimell5644@gmail.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "src/List.php",
+            "tests/ListTest.php"
+        ]
+    },
+    "require": {
+        "php": "7.3.*",
+        "alexgo93/php_pairs": "^1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^3.4",
+        "phpunit/phpunit": "^8"
+    },
+    "scripts": {
+        "phpcs": "phpcs",
+        "phpunit": "vendor/bin/phpunit"
+    }
+}
